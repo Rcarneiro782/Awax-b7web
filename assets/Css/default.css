@@ -1,3 +1,15 @@
+.button{
+    display: inline-block;
+    background-color: #b28756;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:600px ;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
 .default{
     width: 100%;
     padding-top: 50px;
@@ -22,18 +34,46 @@ font-size: 20px;
 .default .section-body{
     max-width:1140px ;
     margin: auto;
-    min-height: 100px;
-    background-color: #eee;
+    /*min-height: 100px;
+    background-color: #eee;*/
 }
 .default .light{
     background-color: #f7f7f7;
 }
-.default.light .section-title{
+.default.light .section-title,
+.default.light .section-body{
     color: black;
 }
 .default.dark{
     background-color: #000;
 }
-.default.dark .section-title{
+.default.dark .section-title,
+.default.dark .section-body{
     color: #fff;
+}
+.button{
+
+}
+
+/*
+Css áreas especificas
+*/
+
+.section-aboutus{
+display: flex;
+}
+.section-aboutus--left{
+flex: 1;
+}
+.section-aboutus--left p{
+font-size: 14px;
+line-height: 25px;
+}
+.section-aboutus--right{
+width: 500px;
+text-align: center;
+}
+.section-aboutus--right img{
+width: 480px;
+box-shadow: 0 5px  10px #333;
 }
