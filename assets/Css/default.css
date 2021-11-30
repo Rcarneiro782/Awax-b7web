@@ -10,6 +10,20 @@
     margin-top: 30px;
     border-radius: 20px;
 }
+.button-22{
+    text-decoration: none;
+    background-color: #b28756;
+    color: #FFF;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
 .default{
     width: 100%;
     padding-top: 50px;
@@ -22,7 +36,7 @@ text-transform: uppercase;
 font-weight: 600;
 }
 .default .section-title{
-font-size: 20px;
+font-size: 20px ;
 
 }
 .default .section-desc{
@@ -139,4 +153,45 @@ box-shadow: 0 5px  10px #333;
 }
 .section-projects--filters li:first-child{
 border-left: 0;
+}
+
+.section-projects--photos{
+   width: 100%; 
+   max-width: 1140px;
+   margin-top: 20px;
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.section-projects--photo{
+    width: 280px;
+
+}
+.section-projects--photoarea{
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.section-projects--photoarea img{
+    width: inherit;
+    height: inherit;
+}
+.section-projects-photoinfo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.section-projects-photoinfo h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.section-projects--photoarea:hover .section-projects-photoinfo{
+  display: flex;
 }
