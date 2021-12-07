@@ -24,9 +24,11 @@ background-color:rgba(0, 0, 0, 0.8);
 }
 
 .section-team .slidearea{
+display: flex;
+flex-direction: column;
 height: 100%;
 align-items: center;
-justify-content: space-around;
+justify-content: center;
 color:white;
 
 }
