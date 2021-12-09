@@ -88,3 +88,56 @@ margin-right: 10px;
 .section-team--social a:hover{
     background-color: #b28756;
 }
+.happy-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.happy .section-team--name{
+    text-align: center;
+}
+.slidearea  .quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+    
+
+}
+.section-body .lorem{
+    text-align: center;
+    padding-top:30px ;
+    font-size: 14px;
+    color: #777;
+    line-height: 25px;
+    max-width: 700px;
+    margin: auto;
+}
+.happy .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.happy .pointer{
+    height: 15px;
+    border: 2px solid #b28756;
+    width: 15px;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.happy .pointer.active{
+    background-color: #b28756;
+}
+.happy .pointer:hover{
+    background-color: #b28756;
+}
+.happy .lorem{
+   
+}
