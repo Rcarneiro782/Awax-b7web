@@ -138,4 +138,23 @@ margin-right: 10px;
 .happy .pointer:hover{
     background-color: #b28756;
 }
-
+ .section-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto ;
+    border-bottom:1px solid #ddd ;
+    border-top: 1px solid #ddd;
+    
+}
+.section-body .products-area{
+    display: flex;
+    padding-left: 50px;
+    
+}
+.products{
+    padding-left: 50px;
+}
+.price-area{
+    display: flex;
+}
