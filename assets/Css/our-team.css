@@ -259,3 +259,139 @@ margin-right: 10px;
 }
 .premium .pointer:hover{
     background-color: #b28756;
+}
+.section-facts{
+
+}
+.facts{
+    display: flex;
+}
+.fact{
+flex: 1;
+text-align: center;
+padding: 15px;
+}
+.fact h3{
+    color: #b28756;
+    font-size: 45px;
+}
+.fact h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.fact p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+.section-facts .section-desc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.fact-line{
+    width: 20px;
+    border-bottom: 2px solid #B28756;
+    margin: auto;
+}
+.section-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFF;
+    color: #999;
+}
+.share-legend{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.share-legend img{
+    margin-right: 10px;
+}
+.share-item{
+    font-size: 12px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.share-icon{
+    width: 40px;
+    height: 40px;
+    border-radius:20px;
+    margin-right:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share-item .share-icon img{
+    height: 15px;
+}
+.share-twitter{
+    background-color: #34c5f0;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.share-linkedin{
+    background-color: #34c5f0;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.share-facebook{
+    background-color: #34c5f0;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.share-googleplus{
+    background-color: #f03a34;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.share-pinterest{
+    background-color: #b71629;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    background-color: #f7f7f7;
+}
+.section-contact{
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+.section-contact input[type=text], .section-contact textarea{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    margin-top: 10px
+}
+.section-contact textarea {
+    height: 100px;
+    resize: none;
+}
+.contact-split{
+    display: flex;
+}
+.contact-split input:first-child {
+    margin-right: 20px;
+}
