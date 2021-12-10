@@ -200,3 +200,62 @@ margin-right: 10px;
     border-radius: 20px
 
 }
+.section-premium{
+    display: flex;
+    
+}
+.section-premium .slidearea{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width:1100px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 40px;
+}
+.section-premium-right, .section-premium-left{
+    flex: 1;
+    padding-left: 60px;
+    
+}
+.premium-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.premium-item img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.premium-item div h4{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+.premium-item div{
+    flex: 1;
+    color: #999;
+    line-height: 20px;
+}
+.premium .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.premium .pointer{
+    height: 15px;
+    border: 2px solid #b28756;
+    width: 15px;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.premium .pointer.active{
+    background-color: #b28756;
+}
+.premium .pointer:hover{
+    background-color: #b28756;
