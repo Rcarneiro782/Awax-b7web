@@ -155,6 +155,48 @@ margin-right: 10px;
 .products{
     padding-left: 50px;
 }
+.price-light {
+    background-color: #f7f7f7;
+}
 .price-area{
     display: flex;
+}
+.price-table-area{
+    flex:1;
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.price-express{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+.price-value{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.price-month{
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.price-item-point{
+    font-size: 12px;
+}
+.button-dark{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    background-color: black;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px
+
 }
