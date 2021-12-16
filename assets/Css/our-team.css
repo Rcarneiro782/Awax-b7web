@@ -149,13 +149,14 @@ margin-right: 10px;
 }
 .section-body .products-area{
     display: flex;
+    align-items: center;
     padding-left: 50px;
-    
 }
-
 .products{
     flex: 1;
     text-align: center;
+    justify-content: center;
+    padding-left: 50px;
     
 }
 .price-light {
@@ -456,7 +457,7 @@ footer{
 .footer-areas .item1{
     flex: 1;
 }
-.footer-areas .item2{
+.footer-areas.item2{
     color: #999;
     line-height: 20px;
     font-size: 13px;
