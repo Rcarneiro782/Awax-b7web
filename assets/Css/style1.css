@@ -33,6 +33,7 @@ width: 100px;
 flex: 1;
 display: flex;
 justify-content: flex-end;
+cursor: pointer;
 }
 .menu ul,
 .menu li{
@@ -56,8 +57,13 @@ justify-content: flex-end;
    align-items: center;
    border-bottom:5px solid black ;
 }
+.menu-opened{
+    width: 100px;
+    display: block;
+}
 .menu-opener{
     display: none;
+
 }
 .menu li a:hover {
     border-bottom: 5px solid #b28756;
