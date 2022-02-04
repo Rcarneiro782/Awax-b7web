@@ -34,6 +34,9 @@ flex: 1;
 display: flex;
 justify-content: flex-end;
 cursor: pointer;
+overflow-x: hidden;
+overflow-y: auto;
+transition: all ease .5s;
 }
 .menu ul,
 .menu li{

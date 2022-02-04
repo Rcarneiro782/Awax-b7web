@@ -1,8 +1,8 @@
 function oppened() {
-    let menu = document.getElementsByClassName("menu");
+    let menu = document.querySelector(".menu");
 
 
-    if (menu.classList.contains("menu-opened")) {
+    if (!menu.classList.contains("menu-opened")) {
         
         
         menu.classList.add("menu-opened");
